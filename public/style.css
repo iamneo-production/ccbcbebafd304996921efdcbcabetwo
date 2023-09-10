@@ -1,0 +1,123 @@
+   @import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Radio Canada", sans-serif;
+  }
+  
+/*Enter your styling here */
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  color: white;
+  height:40px;
+  font-size: 25px;
+  display: flex;
+  align-items:center ;
+  padding: 10px;
+  
+
+  
+}
+
+nav h1{
+text-align: center;
+}
+
+
+/* Header Styling */
+header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+/* Box Styling */
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+}
+
+/* Row Styling */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button Styling */
+.btn {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333; /* Darker text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    user-select: none; /* Prevent text selection */
+}
+
+/* Button Hover Styling */
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+/* Disabled Button Styling */
+.btn:disabled {
+    color: black;
+    cursor: not-allowed;
+}
+
+/* Result Container Styling */
+.result-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #333;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Result Styling */
+.result {
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+/* Reset Styling */
+.reset {
+    text-align: center;
+    
+}
+
+/* Reset Button Styling */
+#reset-button {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#reset-button:hover {
+    background-color: white;
+    color:black;
+}
